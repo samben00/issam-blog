@@ -1,7 +1,7 @@
 # Site settings
 title: Issam Ben Blog
 description: My blog description
-baseurl: "/issam-blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://samben00.github.io/issam-blog"
 
 # User settings
