@@ -2,7 +2,7 @@
 title: Issam Ben Blog
 description: My blog description
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://samben00.github.io/issam-blog.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://samben00.github.io/issam-blog"
 
 # User settings
 username: Issam Ben
