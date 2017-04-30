@@ -31,13 +31,13 @@ compress_html:
 # For external links add external: true
 links:
   - title: Home
-    url: /issam-blog/
+    url: /
   - title: Series
-    url: /issam-blog/series
+    url: /series
   - title: Tags
-    url: /issam-blog/tags
+    url: /tags
   - title: About Me
-    url: /issam-blog/about
+    url: /about
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
