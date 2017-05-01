@@ -2,7 +2,7 @@
 layout: post
 title: "How to setup up logroate with aws s3"
 date: 2017-04-09 20:09:18
-image: '/assets/img/'
+image: '/assets/img/postlogroate-aws.jpg'
 description: This is a tutorial explain how to rotate files and upload back them up in a S3 bucket.
 comments: true
 tags:
