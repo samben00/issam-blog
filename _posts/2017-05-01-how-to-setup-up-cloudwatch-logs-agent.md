@@ -4,6 +4,7 @@ title: "How to setup up AWS CloudWatch Logs"
 date: 2017-05-01 14:56:42
 image: '/assets/img/'
 description:
+comments: true
 tags:
 - CloudWatch
 - AWS
@@ -15,7 +16,7 @@ categories:
 twitter_text:
 ---
 
-I find AWS CloudWatch very useful when it comes to monitor system/application logs. CloudWatch service provide a friendly UI to search inside your logs. Also it offers very flexible way to select logs of specific date or date range.
+I find AWS CloudWatch very useful when it comes to monitor system/application logs. CloudWatch service provides a friendly UI to search inside your logs. Also it offers very flexible way to select logs of specific date or date range.
 
 ## What I m trying to do
 
@@ -39,11 +40,11 @@ I will try to explain how it s easy to install and configure AWS CloudWatch on m
 ### 1. Instalation
 
 Amazon makes the installation of the CloudWatch agent very easy. 
-{% highlight %}
+{% highlight bash %}
 wget https://s3.amazonaws.com/aws-cloudwatch/downloads/latest/awslogs-agent-setup.py
 {% endhighlight %}
 
-{% highlight %}
+{% highlight bash %}
 python awslogs-agent-setup.py -n -r MY_REGION
 {% endhighlight %}
 
