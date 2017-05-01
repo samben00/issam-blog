@@ -4,6 +4,7 @@ title: "how to setup up logroate with aws s3"
 date: 2017-04-09 20:09:18
 image: '/assets/img/'
 description:
+comments: true
 tags:
 - logrotate
 - aws
