@@ -1,18 +1,17 @@
 ---
 layout: post
-title: "how to setup up logroate with aws s3"
+title: "How to setup up logroate with aws s3"
 date: 2017-04-09 20:09:18
 image: '/assets/img/'
-description:
+description: This is a tutorial explain how to rotate files and upload back them up in a S3 bucket.
 comments: true
 tags:
 - logrotate
-- aws
-- aws s3
+- AWS s3
 - linux ubuntu
 - ubuntu logrotate 
+- centralized logging 
 categories:
-- linux administration
 - aws
 twitter_text:
 ---
