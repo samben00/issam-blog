@@ -4,6 +4,7 @@ title: "How to monitor a remote JVM over SSH with JVisualVM"
 date: 2017-05-09 14:58:21
 image: '/assets/img/'
 description:
+- VisualVM is a great tool for monitoring JVM regarding memory usage, threads, GC, MBeans etc. Let’s see how to use it over SSH to monitor (or even profile, using its sampler) a remote JVM with JMX
 tags:
 - JVisualVM
 - jvm
@@ -28,13 +29,13 @@ I will explain how to monitor a remote application through JMX by establishing a
 
 ## Prerequisite 
 
-- JVisualVM comes with the the JVM, so you don't have to install anything.so make sure that your local machine has visualvm otherwise dowanload it. 
+- JVisualVM comes with the the JVM, so you don't have to install anything.so make sure that your local machine has visualvm otherwise download it. 
 - in case you want the latest version you can grab it from this link [Dwnload VisualVM](https://visualvm.github.io/)
 
 ## Basic Steps
 
 1. Prepare JAVA application 
-2. Establish an ssh tunnel to the remote machine
+2. Establish ssh tunnel to the remote machine
 3. Run and Configure JVisualVM
  
 ### 1. JAVA application
