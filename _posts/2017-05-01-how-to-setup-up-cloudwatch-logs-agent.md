@@ -99,3 +99,8 @@ region = us-east-1
 [plugins]
 cwlogs = cwlogs
 {% endhighlight %}
+
+- then restart the aws logs agent
+{% highlight bash %}
+service awslogs restart
+{% endhighlight %}
