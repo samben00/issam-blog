@@ -68,8 +68,9 @@ ssh -i yourPermissionFile.pem -l username 101.101.101.101 -L 9010:localhost:9010
 ### 3. JVisualVM
 
 - Open VisualVM application
-- on the left pannel click right on local then add new jmx connection.
-- for the connection config put <b>localhost:9010</b>
+- On the left pannel click right on local then add new jmx connection.
+- For the connection config put <b>localhost:9010</b>, then click OK.
+- Now you are all set, just open the connection and start monitoring your application.
 
 ![run-VisualVM](/assets/img/post/jvisualvm/1.png){:class="img-responsive"}
 
