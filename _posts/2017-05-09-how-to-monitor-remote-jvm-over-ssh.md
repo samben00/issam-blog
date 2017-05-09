@@ -30,7 +30,7 @@ I will explain how to monitor a remote application through JMX by establishing a
 ## Prerequisite 
 
 - JVisualVM comes with the the JVM, so you don't have to install anything.so make sure that your local machine has visualvm otherwise download it. 
-- in case you want the latest version you can grab it from this link [Dwnload VisualVM](https://visualvm.github.io/)
+- in case you want the latest version you can grab it from this link [Download VisualVM](https://visualvm.github.io/)
 
 ## Basic Steps
 
