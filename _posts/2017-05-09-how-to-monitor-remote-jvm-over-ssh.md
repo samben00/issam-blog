@@ -59,7 +59,7 @@ For more info regarding jmx connection, see [Remote JMX Connections](http://docs
 ### 2. SSH TUNNEL
 
 - Now it's time to establish an ssh connection. 
-- Change the pemfile, username and your remote ip address.
+- Change the pem file, username and your remote ip address.
  
 {% highlight bash %}
 ssh -i yourPermissionFile.pem -l username 101.101.101.101 -L 9010:localhost:9010 -L 9011:localhost:9011
@@ -71,7 +71,7 @@ ssh -i yourPermissionFile.pem -l username 101.101.101.101 -L 9010:localhost:9010
 - on the left pannel click right on local then add new jmx connection.
 - for the connection config put <b>localhost:9010</b>
 
-![image-title-here](/assets/img/post/jvisualvm/1.png){:class="img-responsive"}
+![run-VisualVM](/assets/img/post/jvisualvm/1.png){:class="img-responsive"}
 
-![image-title-here](/assets/img/post/jvisualvm/2.png){:class="img-responsive"}
+![configure-VisualVM](/assets/img/post/jvisualvm/2.png){:class="img-responsive"}
 
