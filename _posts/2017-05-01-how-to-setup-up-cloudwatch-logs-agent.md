@@ -102,5 +102,5 @@ cwlogs = cwlogs
 
 - then restart the aws logs agent
 {% highlight bash %}
-service awslogs restart
+sudo service awslogs restart
 {% endhighlight %}
