@@ -3,7 +3,7 @@ layout: post
 title: "How to setup up AWS CloudWatch Logs"
 date: 2017-05-01 14:56:42
 image: '/assets/img/'
-description:
+description: 'Setup up AWS CloudWatch Logs to monitor your machine logs'
 comments: true
 tags:
 - CloudWatch

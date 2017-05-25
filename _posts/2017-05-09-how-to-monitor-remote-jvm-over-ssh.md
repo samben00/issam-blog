@@ -3,8 +3,7 @@ layout: post
 title: "How to monitor a remote JVM over SSH with JVisualVM"
 date: 2017-05-09 14:58:21
 image: '/assets/img/'
-description:
-- VisualVM is a great tool for monitoring JVM regarding memory usage, threads, GC, MBeans etc. Let’s see how to use it over SSH to monitor (or even profile, using its sampler) a remote JVM with JMX
+description: 'VisualVM is a great tool for monitoring JVM regarding memory usage, threads, GC, MBeans etc. Let’s see how to use it over SSH to monitor (or even profile, using its sampler) a remote JVM with JMX'
 tags:
 - JVisualVM
 - jvm
