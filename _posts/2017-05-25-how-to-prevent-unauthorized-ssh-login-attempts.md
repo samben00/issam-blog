@@ -4,6 +4,7 @@ title: "How to prevent unauthorized SSH login attempts - Fail2Ban"
 date: 2017-05-25 13:40:09
 image: '/assets/img/'
 description: 'Configure and Setup Fail2Ban to block unauthorized SSH login attempts'
+comments: true
 tags: 
 - fail2ban
 - unauthorized SSH
