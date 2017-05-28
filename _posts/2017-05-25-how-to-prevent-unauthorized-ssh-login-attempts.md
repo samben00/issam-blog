@@ -25,9 +25,9 @@ Brute force attacks can be run against your machine trough ssh. in Ubuntu `/var/
 In case you found the alerts below,then it's time to take some actions.
 
 
-`error: maximum authentication attempts exceeded for root from`
-`Disconnecting: Too many authentication failures for root [preauth]`
-`reverse mapping checking getaddrinfo for  failed - POSSIBLE BREAK-IN ATTEMPT!`
+- `error: maximum authentication attempts exceeded for root from`
+- `Disconnecting: Too many authentication failures for root [preauth]`
+- `reverse mapping checking getaddrinfo for  failed - POSSIBLE BREAK-IN ATTEMPT!`
 
 ## What I m trying to do
 
@@ -60,11 +60,11 @@ sudo apt-get install fail2ban
 
 ### 2. Configure Fail2Ban
 
-- After installing fail2ban navigate to the following directory `/etc/fail2ban/`
-- All we need is to configure <b>jail.conf</b>, which is the default configuration
+- After installing fail2ban navigate to the following directory `/etc/fail2ban/`.
+- All we need is to configure <b>jail.conf</b>, which is the default configuration.
 - The default configuration will do fine, but there are few settings that you may want to change. to make the service more robust.
 
-- `ignoreip`: configure the ip @ that fail2ban must ignore. by default it's configured to not to ban any traffic comming from localhost. if you have a public ip you may want to add it.
+- `ignoreip`: configure the ip @ that fail2ban must ignore. by default it's configured to not  ban any traffic coming from localhost. if you have a public ip you may want to add it.
   just append your public ip @ next to 127.0.0.1/8 after space separator.
   
 {% highlight bash %}
@@ -98,7 +98,7 @@ maxretry = 3
 {% endhighlight %}
 
 
-- `action`: it is self explanatory, this tells what actions fail2ban should take in case of ban (matching the parameters we set above). 
+- `action`: it is self explanatory, this tells what actions fail2ban should take in case of a ban (matching the parameters we set above). 
 there are 3 main actions :
     1. <b> action_ </b>: preforms a ban/block by adding the balcklisted IP @ to the IP tables.
     2. <b> action_mw </b>: ban the IP @ and send an e-mail with whois report.
@@ -113,7 +113,7 @@ action = %(action_mwl)s
 {% endhighlight %}
 
 
-- Since I configured fail2ban to send emails alerts and reports, you need to do some extra configuration. always in the same file `/etc/fail2ban/jail.conf` I will configure the mail service and change the email send & receiver.
+- Since I configured fail2ban to send emails alerts and reports, you need to do some extra configuration. always in the same file `/etc/fail2ban/jail.conf` I will configure the mail service and change the email sender & receiver.
 FWI : I have sendmail installed and configured on my machine, you need to do the same.I m not going to explain it in this post maybe in another post. 
 
 {% highlight bash %}
@@ -152,11 +152,8 @@ sudo service fail2ban reload
 
 <i>
 Hi, 
-
 The jail ssh has been started successfully. 
-
 Regards, 
-
 Fail2Ban 
 </i>
 
