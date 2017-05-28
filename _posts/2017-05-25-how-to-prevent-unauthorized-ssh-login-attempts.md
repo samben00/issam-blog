@@ -10,8 +10,8 @@ tags:
 - unauthorized SSH
 - block ssh 
 - ssh login
-- error: maximum authentication
-- Disconnecting: Too many authentication
+- maximum authentication ssh
+- Disconnecting Too many authentication
 - block ssh login
 categories:
 - linux
