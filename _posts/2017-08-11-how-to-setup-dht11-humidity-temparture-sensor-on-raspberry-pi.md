@@ -49,7 +49,7 @@ I have included a picture of the whole setup.
 
 After you complete the setup, turn on your raspberry pi. you will see a red led light on your sensor, which means it is powered on.
 
-![DHT11 Raspberry Pi Setup](assets/img/post/raspberry/setup-dht11/dht11-sensor-raspberry-pi.jpg){:class="img-responsive"}
+![DHT11 Raspberry Pi Setup](/assets/img/post/raspberry/setup-dht11/dht11-sensor-raspberry-pi.jpg){:class="img-responsive"}
 
 
 # Reading From DHT11
