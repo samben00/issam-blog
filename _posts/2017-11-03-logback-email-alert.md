@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Logback email alert using Gmail"
-date: 2017-11-03 19:24:18
+date: 2018-02-17 20:26:33
 image: '/assets/img/'
 description:'Sending email alerts when error occurs using Gmail account and Logback'
 comments: true
