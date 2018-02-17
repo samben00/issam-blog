@@ -14,6 +14,7 @@ categories:
 - java
 twitter_text:
 ---
+
 Recently I automated a java application that runs everyday at certain times. The java application was running as Docker container on AWS ECS.
 
 Since the java application was communicating with 3party service through REST API, there was a chance that an error might happen. I needed to be always up to date and receive emails on my Gmail once something fails to execute.
@@ -93,9 +94,3 @@ Run the following commands to encrypt your file, before committing your changes.
 git-crypt add-gpg-user my-gpg-key
 git-crypt lock
 {% endhighlight %}
-
-
-
-
-
-    
