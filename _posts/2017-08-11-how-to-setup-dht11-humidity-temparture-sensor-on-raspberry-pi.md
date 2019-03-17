@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to setup DHT11 humidity temparture sensor on Raspberry PI"
+title: "How to setup DHT11 humidity temperature sensor on Raspberry PI"
 date: 2017-08-11 09:06:15
 image: '/assets/img/'
 description:
