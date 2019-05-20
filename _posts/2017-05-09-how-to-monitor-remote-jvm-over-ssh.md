@@ -52,7 +52,7 @@ yourJavaCommand...  -Dcom.sun.management.jmxremote.ssl=false
                     -Dcom.sun.management.jmxremote.local.only=false
 {% endhighlight %}
 
-FWI : it's important to set both ports jmx and rmi port.
+**Note : it's important to set both ports jmx and rmi port**
 
 For more info regarding jmx connection, see [Remote JMX Connections](http://docs.oracle.com/javase/6/docs/technotes/guides/visualvm/jmx_connections.html).
 
