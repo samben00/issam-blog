@@ -28,6 +28,9 @@ After reading more about how docker-swarm authentication works, I found out that
 Also, theses tokens remain stored and only refreshed by the manager. This means even though you run a docker login command on the worker, it won’t use the local tokens; instead, it uses the tokens stored in the docker swarm raft.
 
 According to docker swarm documentation, no command allows refreshing these tokens without running the update or the deploy command.
+
+**Note:** The update command will not impact your running services in case you have a fixed docker image version. 
+
 ## Solution
 
 ### Simple Solution
@@ -57,7 +60,9 @@ There are different ways to implement this, either by using:
 
 I think the first and second solution are the simplest and I don't see a need of creating another docker service just to refresh tokens.
 
-In my case I setup a systemd with timer that runs the command above every hour
+In my case I setup a systemd service with a timer that runs the command above on the **manager node** every hour.
+
+Login to one of the manager nodes and create the following files:
 
 **/usr/bin/docker-ecr-login.sh**
 {% highlight bash%}
