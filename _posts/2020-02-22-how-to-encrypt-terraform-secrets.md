@@ -139,3 +139,7 @@ Now we need to add the un-encrypted file to `gitignore` so it will not be commit
 ### Extra
 
 To make this more efficient, you can create an init function that decrypts all secrets in your project. This way all secrets will be available for Terraform and you won't get errors when running Terraform commands e.g. `terraform plan`, `terraform apply`
+
+## Note
+
+**This post only focuses on providing a solution to encrypt secrets without committing plain text passwords into your git project. However, the `.tfstate` will still contain the secrets un-encrypted.**
